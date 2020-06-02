@@ -1,0 +1,47 @@
+.wpcf7-submit {
+    width: 120px;
+    padding: 10px;
+    font-size: 16px !important;
+    text-align: center;
+    margin: auto;
+    background: #EFF0F1 !important;
+    color: #212322 !important;
+    border: .5px solid black;
+    cursor: pointer;
+}
+
+.wpcf7-submit:hover {
+    background: #000 !important;
+    color: #FFF !important;
+}
+
+.underline-links a {position: relative; display: inline-block;}
+
+.underline-links a::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    height: 1px;
+    background: #000;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.underline-links a:hover:before {
+    right: 0 !important;
+}
+
+.semplice-navbar .container, .semplice-navbar .container-fluid {
+    background: #fff;
+}
+
+.semplice-navbar nav ul li a span {
+      color: #000 !important;
+}
